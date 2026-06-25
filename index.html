@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Nebula Cinematic</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="background"></div>
+<div class="overlay"></div>
+
+<nav class="sidebar">
+
+<div class="logo">
+NEBULA
+</div>
+
+<div class="planet-nav">
+
+<button class="planet-btn active" data-planet="earth">
+EARTH
+</button>
+
+<button class="planet-btn" data-planet="mars">
+MARS
+</button>
+
+<button class="planet-btn" data-planet="jupiter">
+JUPITER
+</button>
+
+<button class="planet-btn" data-planet="saturn">
+SATURN
+</button>
+
+</div>
+
+</nav>
+
+<main class="hero">
+
+<div class="planet-wrapper">
+
+<div class="planet-glow"></div>
+
+<img
+id="planet-image"
+src="earth.png"
+alt="Planet">
+
+</div>
+
+<div class="content">
+
+<span class="label">
+PLANET
+</span>
+
+<h1 id="planet-title">
+EARTH
+</h1>
+
+<p id="planet-description">
+Our home world. A unique planet filled with oceans, continents and life.
+</p>
+
+<div class="stats">
+
+<div class="stat">
+<span>TYPE</span>
+<strong>Terrestrial</strong>
+</div>
+
+<div class="stat">
+<span>STATUS</span>
+<strong>Explorable</strong>
+</div>
+
+</div>
+
+</div>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
