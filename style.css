@@ -268,3 +268,24 @@ body{
   }
 
 }
+@keyframes planetEntrance {
+
+  0%{
+    opacity:0;
+    transform:
+    translateX(-150px)
+    scale(.75);
+  }
+
+  100%{
+    opacity:1;
+    transform:
+    translateX(0)
+    scale(1);
+  }
+
+}
+
+#planet-image{
+  animation:planetEntrance 1.6s ease;
+}
