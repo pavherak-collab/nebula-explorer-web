@@ -290,3 +290,18 @@ body{
 #planet-image{
   animation:planetEntrance 1.6s ease;
 }
+@keyframes nebulaMove{
+
+  0%{
+    transform:
+      scale(1.08)
+      translate(0,0);
+  }
+
+  100%{
+    transform:
+      scale(1.15)
+      translate(-40px,-20px);
+  }
+
+}
